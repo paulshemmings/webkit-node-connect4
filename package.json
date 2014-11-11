@@ -1,0 +1,7 @@
+{
+	"name": "connect4-webkit",
+	"main": "./html/index.html",
+	"window": {
+		"toolbar": false
+	}	
+}
