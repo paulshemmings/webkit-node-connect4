@@ -41,6 +41,11 @@ ul#playerList li {
   margin-bottom: 10px;
 }
 
+ul#playerList li div {
+  font-size: 0.8em;
+  font-style: italic;
+} 
+
 #playerList li.active {
   font-weight: bold;
 }
