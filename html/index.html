@@ -7,17 +7,22 @@
 	    </style>
 	</head>
 	<body>
-		<div id="board" class="roundedBox">
+		<div id="actions" class="roundedBox">
+			<button id='addPlayer'>Add Player</button>
+			<button id='addAI'>Add Computer Player</button>
+			<button id="startGame">Start Game</button>
+			<button id="resetGame">Reset</button>
+			<input type='checkbox' id='traceOn' style="display:none;" />
 		</div>		
-		<button id='addPlayer'>Add Player</button>
-		<button id='addAI'>Add Computer Player</button>
-		<button id="startGame">Start Game</button>
-		<button id="resetGame">Reset</button>
-		Trace On: <input type='checkbox' id='traceOn'/>
-		<ul id='playerList'>
-		</ul>
-		<textarea id="gameStatus"></textarea>
-		
+		<div id="top">		
+			<div id="status" class="roundedBox">
+				<ul id='playerList'>
+				</ul>
+				<div id="log"></div>							
+			</div>	
+			<div id="board" class="roundedBox">
+			</div>		
+		</div>
 
 	</body>
 	<script src="../scripts/main.js"></script>

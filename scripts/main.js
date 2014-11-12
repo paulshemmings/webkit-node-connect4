@@ -12,7 +12,7 @@ var MainPage = {
 		this.addListeners();
 		
 		var board = Board.initialize(8,6);
-		var view = View.initialize(document, 'board', 'playerList', 'gameStatus');
+		var view = View.initialize(document, 'board', 'playerList', 'log');
 
 		this.game = Game.initialize(board, view);
 	},
